@@ -48,7 +48,6 @@ for line in L:
         mul_match = re.search( r'mul\(\d+\,\d+\)', str_2_search)
         do_match = re.search(r'do\(\)',str_2_search)
         dont_match = re.search(r'don\'t\(\)',str_2_search)
-    # inst.append(re.findall(r''))
 
 #Multiplying and Adding Values
 result = 0
